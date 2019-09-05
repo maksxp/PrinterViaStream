@@ -5,7 +5,6 @@ import java.util.List;
 public class PrinterViaStream {
 
       public static void main(String[] args) {
-//          List <String> uglyStrings = new ArrayList<>();
           String forList = "123 ,www, 1qaz, 2wsx, 3edcvfr, zzz, yyyrr";
           List <String> uglyStrings = new ArrayList<>();
           uglyStrings.addAll(Arrays.asList(forList.split("\\s*,\\s*")));
